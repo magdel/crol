@@ -13,16 +13,6 @@ public class UserController {
 
     private static final Logger LOG = LoggerFactory.getLogger(UserController.class);
 
-    /*  @Autowired
-      private OUserPersistenceService userPersistenceService;
-  */
-    /*@Autowired
-    private CaptchaService captchaService;
-*/
-  /*  @Autowired
-    private MailSender mailSender;
-*/
-
 
 
    /* @RequestMapping(value = "/info", method = RequestMethod.GET)
