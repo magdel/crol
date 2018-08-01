@@ -60,11 +60,6 @@ public class SiteController {
         return "contact";
     }
 
-    @RequestMapping(value = "/login", method = RequestMethod.GET)
-    public String getLogin(Model model) {
-        LOG.debug("OCU to login view");
-        return "login";
-    }
 
     @RequestMapping(value = "/status", method = RequestMethod.GET)
     public String getStatus(Model model) {

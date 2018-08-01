@@ -59,14 +59,6 @@ public class CrolApplicationTests extends AbstractTestNGSpringContextTests {
     }
 
     @Test
-    public void testLogin() throws Exception {
-        mockMvc.perform(get("/login"))
-                .andExpect(status().isOk())
-                .andExpect(view().name("login"));
-    }
-
-
-    @Test
     public void testContext() throws Exception {
 
     }
